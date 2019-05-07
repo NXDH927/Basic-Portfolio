@@ -14,7 +14,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: visible;
-  background-color: #333;
+  float: right;
 }
 li {
   display: inline;
@@ -23,7 +23,8 @@ li {
 p {
   font-family: 'Times New Roman', Times, serif;
   padding: 15px;
-  margin: 15px;
+  margin-left: 15px;
+
 }
 
 header {
@@ -36,16 +37,32 @@ header {
 
 div{
   padding: 50px;
-  margin: 20px;
-  height: fit-content;
+  margin: 50px;
+  background-color: grey;
+  height: 250px;
   width: fit-content;
 }
 
 img {
-  margin: 10px;
-  padding: 10px;
   border: 1px solid rgb(218, 44, 44);
   height: 250px;
   width: 200px;
   float: left;
+}
+
+.links{
+
+font-size: 15px;
+padding: 5px;
+margin-left: 10px;
+
+}
+
+footer{
+  margin: 10px;
+  padding: 10px;
+  background: rgb(218, 44, 44);
+  height:75px;
+  width: inherit;
+  float: center;
 }
