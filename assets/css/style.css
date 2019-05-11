@@ -88,11 +88,12 @@ input.Email{
   
 }
 
-input.Message{
+textarea.message{
 
   margin: 10px;
   width: 200px;
   height: 100px;
+
 }
 
 footer{
