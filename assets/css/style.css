@@ -170,32 +170,11 @@ h3, h2 {
   border-bottom: 0;
 }
 
-.auth-image {
-  float: left;
-  width: 200px;
-  height: auto;
-  margin-top: 10px;
-  margin-right: 25px;
-  transform: rotate(180deg)
-  
-}
-
-.auth-image1 {
-  float: right;
-  width: 200px;
-  height: auto;
-  margin-top: 10px;
-  
-}
-
 .auth-image2 {
-
-  width: 200px;
-  height: auto;
+  width: 500px;
   margin-top: 10px;
-  margin-right: 25px;
-  margin-left: 125px;
-  transform: rotate(180deg)
+  margin-right: 180px;
+  margin-left: 195px;
 }
 
 /* contact page */
@@ -271,23 +250,6 @@ input[type=submit] {
     float: left;
     margin-left: 125px
   }
-  
-  .auth-image{
-  
-    width: 50%;
-    height: auto;
-    float: left;
-    margin-right: 25px;
-    
-  }
-
-  .auth-image1{
-  
-    width: 50%;
-    height: auto;
-    float: right;
-    
-  }
 
   .auth-image2{
   
@@ -318,24 +280,6 @@ input[type=submit] {
   
     float: left;
     margin-left: 150px
-  }
-  
-  .auth-image{
-  
-    width: 100%;
-    height: auto;
-    float: left;
-    margin-right: 0px;
-    
-  }
-
-  .auth-image1{
-  
-    width: 100%;
-    height: auto;
-    float: left;
-    margin-right: 0px;
-    
   }
   
   .auth-image2{
