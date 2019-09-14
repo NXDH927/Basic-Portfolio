@@ -24,37 +24,46 @@
     <section class="main-section">
       <h1>Portfolio</h1>
 
-      <div class="work">
-        <img src="assets/images/Crystal.PNG" alt="Crystal Clicker" >
+      <select  id="assignment" onchange=assignmentSelect()>
+        <option value="Choose A Project" selected="selected">Choose a Project</option>
+        <option value="Project 1">Project 1</option>
+        <option value="Project 2">Project 2</option>
+        <option value="HW Train Schedules"> HW Train Schedule</option>
+        <option value="HW Giftastic">HW Giftastic</option>
+        <option value="HW Letter Guess">HW Letter Guess</option>
+      </select>
 
-        <a href="https://nxdh927.github.io/unit-4-game/"><h3>Crystal Clicker</h3></a>
-      </div>
-
-      <div class="work">
-        <img src="assets/images/Gif.PNG" alt="Gif Search" href="">
-
-        <a href="https://nxdh927.github.io/unit-6-homework/"><h3>Gif Search</h3></a>
-      </div>
-
-      <div class="work">
-        <img src="assets/images/Psychic.PNG" alt="Letter Guess Game">
-
-        <a href="https://nxdh927.github.io/Psychic-game/"><h3>Letter Guess</h3></a>
-      </div>
-
-      <div class="work">
-        <img src="assets/images/Trivia.PNG" alt="Trivia Game">
-
-        <a href="https://nxdh927.github.io/unit-5-game/"><h3>Trivia Game</h3></a>
-      </div>
-
-      <div class="work">
-        <img src="assets/images/Train.PNG" alt="Train List Firebase">
-
-        <a href="https://nxdh927.github.io/unit7-homework/"><h3>Train List Firebase</h3>
-      </div>
+      <p id="selected"></p>
 
     </section>
+
+    <script>
+      function assignmentSelect() {
+        var assignment = document.getElementById("assignment").value;
+        document.getElementById("selected").innerHTML = assignment + "!";
+      
+      
+      switch(document.getElementById('assignment').value)
+      {
+          case 'Project 1': 
+              document.getElementById('selected').innerHTML ='<a href="https://nxdh927.github.io/Project-1/"><img class=image src="/assets/images/Project1.PNG"></a>';
+              break;   
+          case 'Project 2': 
+              document.getElementById('selected').innerHTML ='<a href="https://project--two.herokuapp.com/"><img class=image src="/assets/images/Project2.PNG"></a>';  
+              break;     
+          case 'HW Train Schedules': 
+              document.getElementById('selected').innerHTML ='<a href="https://nxdh927.github.io/unit7-homework/"><img class=image src="/assets/images/Train.PNG"></a>';
+              break;     
+          case 'HW Giftastic': 
+              document.getElementById('selected').innerHTML ='<a href="https://nxdh927.github.io/unit-6-homework/"><img class=image src="/assets/images/Giftastic.PNG"></a>';
+              break;    
+          case 'HW Letter Guess': 
+              document.getElementById('selected').innerHTML ='<a href="https://nxdh927.github.io/Psychic-game/"><img class=image src="/assets/images/Psychic.PNG"></a>';
+              break;    
+      }
+            
+    };
+    </script>
 
   </div>
 
