@@ -239,7 +239,7 @@ input[type=submit] {
   nav{
   
     float: right;
-    margin-right: 80px
+
   }
 
 
@@ -288,7 +288,7 @@ input[type=submit] {
   nav{
   
     float: left;
-    margin-left: 150px
+    margin-left: 50px
   }
   
   .auth-image2{
